@@ -3,7 +3,7 @@ let xp = prompt("Informe quantos xps você possui")
 let nivel = ['Ferro', 'Bronze', 'Prata', 'Ouro', 'Platina', 'Ascendente', 'Imortal', 'Radiante']
 
 switch (true) {
-    case xp < 1000:
+    case xp <= 1000:
         alert(`O Herói de nome ${heroi} está no nível de ${nivel[0]}`)
         break
     case xp <= 2000:
@@ -26,4 +26,5 @@ switch (true) {
         break
     default:
         alert(`O Herói de nome ${heroi} está no nível de ${nivel[7]}`)
+        break
 }
