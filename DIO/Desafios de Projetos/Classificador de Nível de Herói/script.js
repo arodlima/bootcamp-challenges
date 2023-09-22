@@ -24,7 +24,6 @@ switch (true) {
     case xp <= 10000:
         alert(`O Herói de nome ${heroi} está no nível de ${nivel[6]}`)
         break
-    case xp >= 10001:
+    default:
         alert(`O Herói de nome ${heroi} está no nível de ${nivel[7]}`)
-        break
 }
