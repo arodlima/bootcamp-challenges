@@ -2,6 +2,23 @@
 
 ☆
 
+## Desafios de Projetos [DIO](https://web.dio.me)
+
+| Projetos | Bootcamp |  Linguagem | Status |  Código | 
+| ------ | :----------: | :----------: | :---: |:-----: |
+| Contador - Controle de Fluxo | [Santander Bootcamp 2023 - Fullstack Java + Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe) | ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=openjdk) | ![Badge Concluido ](https://img.shields.io/badge/CONCLUIDO-44CC11?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](https://github.com/arodlima/challenges/tree/main/DIO/Desafios%20de%20Projetos/_Java/controle-fluxo) | 
+| Diagramação de Classes do Iphone - POO | [Santander Bootcamp 2023 - Fullstack Java + Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe)| ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=openjdk) |  ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Classificador de Nível de Herói | [Potência Tech iFood - Programação do Zero](https://web.dio.me/track/potencia-tech-ifood-programacao-do-zero) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Concluido ](https://img.shields.io/badge/CONCLUIDO-44CC11?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](https://github.com/arodlima/challenges/tree/main/DIO/Desafios%20de%20Projetos/Classificador%20de%20Nível%20de%20Herói) | 
+| Calculadora de Partidas Rankeadas | [Potência Tech iFood - Programação do Zero](https://web.dio.me/track/potencia-tech-ifood-programacao-do-zero) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Concluido ](https://img.shields.io/badge/CONCLUIDO-44CC11?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](https://github.com/arodlima/challenges/tree/main/DIO/Desafios%20de%20Projetos/Calculadora%20de%20Partidas%20Rankeadas) |
+| Escrevendo as Classes de um Jogo | [Potência Tech iFood - Programação do Zero](https://web.dio.me/track/potencia-tech-ifood-programacao-do-zero) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Concluido ](https://img.shields.io/badge/CONCLUIDO-44CC11?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Criando sua Primeira Landing Page com HTML e CSS | [Potência Tech iFood - Desenvolvimento de Jogos](link) | ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5) <br> ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3) | ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Jogo do Detona Ralph | [Potência Tech iFood - Desenvolvimento de Jogos](link) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Jogo da memórias com Emojis | [Potência Tech iFood - Desenvolvimento de Jogos](link) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Simulador de Piano | [Potência Tech iFood - Desenvolvimento de Jogos](link) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) | ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+| Jogo de Cartas do Yu-Gi-Oh! | [Potência Tech iFood - Desenvolvimento de Jogos](link) | ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript) <br> ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3) | ![Badge Pra Fazer](https://img.shields.io/badge/PARA%20FAZER-9999A1?style=for-the-badge) | [![Projeto](https://img.shields.io/badge/Projeto-FF5A5F?style=for-the-badge)](linkaqui) |
+
+<br>
+
 ## Desafios de código [DIO](https://web.dio.me)
 
 |[Santander Bootcamp 2023 - Fullstack Java + Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe) |
