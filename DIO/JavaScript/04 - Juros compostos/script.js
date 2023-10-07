@@ -6,11 +6,6 @@ const valorInicial = parseFloat(gets());
 const taxaJuros = parseFloat(gets());
 const periodo = parseInt(gets());
 
-let valorFinal = valorInicial;
-
 //TODO: Iterar, baseado no período em anos, para calculo do valorFinal com os juros.
-for (let ano = 1; ano <= periodo; ano++) {
-    valorFinal = valorFinal * (1 + taxaJuros);
-}
-
-print('Valor final do investimento: R$', valorFinal.toFixed(2));
+let valorFinal = valorInicial * Math.pow(1 + taxaJuros, periodo);
+print(`Valor final do investimento: R$ ${valorFinal.toFixed(2)}`);

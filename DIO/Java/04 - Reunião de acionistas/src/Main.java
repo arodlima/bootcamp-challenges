@@ -38,15 +38,11 @@ class SistemaAcionistas {
         analises.add(new Analise(df.parse("30/06/2023"), "Analise de Inovacao e Tecnologia"));
 
         //TODO: Implemente o filtro das análises dentro do período especificado. 
-        //Dica: Crie uma lista para armazenar as análises filtradas e use um loop for para filtrar as análises.
-        List<String> analisesFiltradas = new ArrayList<>();
-        for (Analise analise : analises) {
-            if (!analise.data.before(dataInicial) && !analise.data.after(dataFinal)) {
-                analisesFiltradas.add(analise.descricao);
-            }
-        }
         // TODO: Retorne a lista de análises filtradas.
-        return analisesFiltradas;
+        return analises.stream()
+                        .filter(analise -> !analise.data.before(dataInicial) && !analise.data.after(dataFinal))
+                        .map(analise -> analise.descricao)
+                        .toList();
     }
 
     class Analise {

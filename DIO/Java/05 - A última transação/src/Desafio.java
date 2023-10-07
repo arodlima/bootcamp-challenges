@@ -10,15 +10,9 @@ public class Desafio {
 
         // TODO: Solicitar ao usuário que forneça os valores necessários para criar uma Transacao.
         if (partes.length == 4) {
-            String data = partes[0];
-            String hora = partes[1];
-            String descricao = partes[2];
-            double valor = Double.parseDouble(partes[3]);
-
-            Transacao transacao = new Transacao(data, hora, descricao, valor);
-
+            Transacao transacao = new Transacao(partes[0], partes[1], partes[2], Double.parseDouble(partes[3]));
             transacao.imprimir();
-        }
+    }
     }
 }
 

@@ -33,7 +33,7 @@ class ContaBancaria {
         DecimalFormat decimalFormat = new DecimalFormat("#.0");
         System.out.println(titular);
         System.out.println(numero);
-        System.out.println("Saldo: R$ " + decimalFormat.format(saldo));
+        System.out.println("Saldo: R$ %.1f%n", saldo);
     }
 }
 
@@ -49,6 +49,6 @@ class ContaPoupanca extends ContaBancaria {
     public void exibirInformacoes() {
         super.exibirInformacoes();
         //TODO: Complementar as informações com a taxa de juros.
-        System.out.format("Taxa de juros: %.1f%%", taxaJuros);
+        System.out.format("Taxa de juros: %.1f%%%n", taxaJuros);
     }
 }

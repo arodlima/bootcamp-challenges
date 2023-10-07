@@ -4,14 +4,13 @@
 
 const valor = parseFloat(gets());
 
-if (valor > 0) {
-  //TODO: Imprimir a mensagem de sucesso, formatando o saldo atual (vide Exemplos).
-    print("Deposito realizado com sucesso!")
-    print("Saldo atual: R$ " + valor.toFixed(2))
-} else if (valor < 0) {
-  //TODO: Imprimir a mensagem de valor inválido.
-    print("Valor invalido! Digite um valor maior que zero.")
-} else {
-  //TODO: Imprimir a mensagem de encerrar o programa.
-    print("Encerrando o programa...")
-}
+//TODO: Imprimir a mensagem de sucesso, formatando o saldo atual (vide Exemplos).
+//TODO: Imprimir a mensagem de valor inválido.
+//TODO: Imprimir a mensagem de encerrar o programa.
+const mensagem = valor > 0
+  ? `Deposito realizado com sucesso!\n Saldo atual: R$ ${valor.toFixed(2)}`
+  : valor < 0
+    ? "Valor invalido! Digite um valor maior que zero."
+    : "Encerrando o programa...";
+
+print(mensagem);

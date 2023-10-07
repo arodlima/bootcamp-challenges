@@ -9,8 +9,8 @@ let valorSaque = parseInt(gets());
 //TODO: Criar as condições necessárias para impressão da saída, vide tabela de exemplos.
 const valorFinal = saldoTotal - valorSaque;
 
-if (saldoTotal >= valorSaque) {
-    print("Saque realizado com sucesso. Novo saldo: " + valorFinal);
-} else {
-    print("Saldo insuficiente. Saque nao realizado!");
-}
+const mensagem = saldoTotal >= valorSaque 
+    ? `Saque realizado com sucesso. Novo saldo: ${valorFinal}` 
+    : "Saldo insuficiente. Saque nao realizado!";
+
+print(mensagem);

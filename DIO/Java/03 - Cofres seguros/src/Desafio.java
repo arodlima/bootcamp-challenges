@@ -49,13 +49,9 @@ public class Desafio {
             int confirmacaoSenha = scanner.nextInt();
             
             CofreDigital cofreDigital = new CofreDigital(senha);
-            if (cofreDigital.validarSenha(confirmacaoSenha)) {
-                cofreDigital.imprimirInformacoes();
-                System.out.println("Cofre aberto!");
-            } else {
-                cofreDigital.imprimirInformacoes();
-                System.out.println("Senha incorreta!");
-            }
+            String resultado = cofreDigital.validarSenha(confirmacaoSenha) ? "Cofre aberto!" : "Senha incorreta!";
+            cofreDigital.imprimirInformacoes();
+            System.out.println(resultado);
         } else {
             CofreFisico cofreFisico = new CofreFisico();
             cofreFisico.imprimirInformacoes();
