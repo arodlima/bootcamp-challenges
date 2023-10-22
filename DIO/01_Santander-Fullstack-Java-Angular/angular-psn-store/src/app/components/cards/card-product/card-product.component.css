@@ -1,0 +1,10 @@
+.card-product__container > img {
+    width: 331px;
+    height: 331px;
+    border-radius: 10px;
+}
+
+.card-product__container > img:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}

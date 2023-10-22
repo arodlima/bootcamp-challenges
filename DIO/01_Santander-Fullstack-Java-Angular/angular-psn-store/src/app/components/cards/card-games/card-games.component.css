@@ -1,0 +1,87 @@
+.card-games__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.card-games__image__container {
+    position: relative;
+}
+
+.card-games__image__container > img {
+    width: 331px;
+    height: 331px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.card-games__image__container > img:hover {
+    filter: brightness(90%);
+    outline: 2px solid #004c8a;
+}
+
+.card-games__image__container > .card-games__label {
+    display: flex;
+    padding-left: .8rem;
+    gap: 6px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.card-games__image__container > .card-games__label > .label {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.card-games__product-type {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+}
+
+.card-games__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-games__edition {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-games__price-off {
+    width: max-content;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-bottom: 3px;
+}
+
+.card-games__price__container {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    gap: 6px;
+}
+
+.card-games__price__container > .price {
+    color: #6b6b6b;
+    text-decoration: line-through;
+}

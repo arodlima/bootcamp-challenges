@@ -1,0 +1,17 @@
+.sony-bar {
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 36px;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    text-align: right;
+}
+
+.sony-bar__logo {
+    margin: 0 8px;
+    width: 75px;
+    display: inline-flex;
+    height: 100%;
+}

@@ -1,0 +1,37 @@
+<div class="menu-nav__container">
+    <app-sony-bar></app-sony-bar>
+    <section class="menu-nav__content">
+        <div class="menu-nav">
+            <div class="menu-nav__logo" >
+                <svg-icon src="assets/playstation.svg" [svgStyle]="{'fill': '#0070d1', 'width': '27px', 'height': '27px'}"></svg-icon>
+            </div>
+            <div class="menu-nav__items">
+                <nav>
+                    <a [routerLink]="['']" class="menu-nav__categories">Jogo
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                    <a [routerLink]="['']" class="menu-nav__categories">Hardware
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                    <a [routerLink]="['']" class="menu-nav__categories">Serviços
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                    <a [routerLink]="['']" class="menu-nav__categories">Notícias
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                    <a [routerLink]="['']" class="menu-nav__categories">Loja
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                    <a [routerLink]="['']" class="menu-nav__categories">Suporte
+                        <svg-icon src={{chevronDown}} class="chevron-down"></svg-icon>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        
+
+        <div class="menu-nav__buttom">
+            <button type="button" class="button">Iniciar sessão</button>
+        </div>
+    </section>
+</div>

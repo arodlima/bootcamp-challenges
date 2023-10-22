@@ -1,0 +1,17 @@
+<div class="card-games__container">
+    <div class="card-games__image__container">
+        <img src={{image}} alt="">
+        <div class="card-games__label" *ngIf="labelPS4 || labelPS5">
+            <span class="label ps5" *ngIf="labelPS5">{{labelPS5}}</span>
+            <span class="label ps4" *ngIf="labelPS4">{{labelPS4}}</span>
+        </div>
+    </div>
+    <span class="card-games__product-type">{{productType}}</span>
+    <p class="card-games__title">{{gameTitle}}</p>
+    <p class="card-games__edition">{{gameEdition}}</p>
+    <span class="card-games__price-off">{{priceOff}}</span>
+    <div class="card-games__price__container">
+        <span class="price-descount">{{priceDescount}}</span>
+        <span class="price">{{price}}</span>
+    </div>
+</div>
