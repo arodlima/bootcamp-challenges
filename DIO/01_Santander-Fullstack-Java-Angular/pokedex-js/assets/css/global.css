@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('pokedex.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F8FC;
+}
+
+h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 3.438rem;
+    font-weight: 400;
+    color: #ffcb05;
+    -webkit-text-stroke: .25rem #2d6db5;
+    text-align-last: center;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFF;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
