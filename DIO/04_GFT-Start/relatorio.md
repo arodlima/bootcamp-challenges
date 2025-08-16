@@ -1,7 +1,9 @@
 # **RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS**
 
 Data: 14/08/2025
+
 Empresa: FarmaDistribuidora S.A.
+
 Responsável: Andreza Lima
 
 ---
